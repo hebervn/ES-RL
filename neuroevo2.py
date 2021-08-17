@@ -1,6 +1,10 @@
 """
 neuroevo.py
 """
+__author__ = "giorgio@ac.upc.edu"
+__credits__ = "https://github.com/yanpanlau"
+
+
 from Environment import OmnetBalancerEnv
 from Environment import OmnetLinkweightEnv
 import numpy as np
@@ -161,7 +165,7 @@ IND_SIZE = 21420
 MIN_VALUE, MAX_VALUE = -1.0, 1.0
 MIN_STRATEGY, MAX_STRATEGY = 1e-7, 0.5
 MU = 1
-LAMBDA = 16
+LAMBDA = 8
 
 toolbox = base.Toolbox()
 
